@@ -9,6 +9,9 @@
     "lightningcss-cli": "^1.33.0",
     "rolldown": "^1.2.12"
   },
+  "optionalDependencies": {
+    "@swc/core-freebsd-x64": "^1.3.11"
+  },
   "allowScripts": {
     "@swc/core@1.16.13": true,
     "lightningcss-cli@1.33.0": true
