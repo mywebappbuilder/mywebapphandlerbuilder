@@ -7,7 +7,7 @@
     "ejs": "^7.0.1",
     "lightningcss": "^1.33.0",
     "lightningcss-cli": "^1.33.0",
-    "rolldown": "^1.2.12"
+    "rolldown": "^1.2.13"
   },
   "allowScripts": {
     "@swc/core@1.16.13": true,
