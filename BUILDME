@@ -2,21 +2,21 @@
 
 set -euo pipefail
 
-for src in src/mid/*Handler.java; do
+for src in src/int/*Handler.java; do
 
   if [[ -f "$src" ]]; then
 
     printf "Building $src\n"
 
-    mkdir -p dst/mid/
+    mkdir -p dst/int/
 
     if [[ "${MODE:-development}" == production ]]; then
 
-      javac "$src" -cp "dst/lib/*" -d dst/mid/
+      javac "$src" -cp "dst/lib/*" -d dst/int/
 
     else
 
-      javac "$src" -cp "dst/lib/*" -d dst/mid/ -g
+      javac "$src" -cp "dst/lib/*" -d dst/int/ -g
 
     fi
 
